@@ -1,0 +1,272 @@
+/*All pages*/
+html {
+	position:relative; /*Needed to push footer to the bottom of content*/
+	min-height:100%; /*Pushes footer to the bottom of empty page*/
+	background-color:Gainsboro;
+	font-family:"Century Gothic", sans-serif;
+}
+body {
+	margin: 0 0 140px; /*Keeps everything against the edges of the screen while leaving room for the footer and subject selection*/	
+}
+
+/*All pages title*/
+h1 {
+	font-size:32px;
+	text-align:center;
+	margin:0;
+	padding:10px;
+	/*Color is defined below in the subject-specific code*/
+}
+
+/*All pages nav bar*/
+nav {
+	margin-bottom:20px;
+}
+nav ul {
+	list-style-type:none;
+	margin:0; /*Connects the nav bar to the title*/
+	padding:0; /*Connects the nav bar items to the left side of the screen*/
+	overflow:hidden; /*Fills in the spaces between the left items and the right items*/
+	/*Color is defined below in the subject-specific code*/
+}
+nav li {
+	float:left;
+	min-width:100px;
+	text-align:center;
+}
+nav li.right {
+	float:right;
+}
+nav a:link, nav a:visited {
+	color:black;
+	display:block; /*Unlocks padding attribute and the whole container is clickable*/
+	padding:10px;
+	text-decoration:none;
+	/*Color is defined below in the subject-specific code*/
+}
+nav a:hover {
+	color:lightgrey;
+	/*Background color is defined below in the subject-specific code*/
+	text-decoration:underline;
+}
+nav a:active {
+	color:lightblue;
+}
+
+/*All pages sections*/
+section {
+	padding:0 20px; /*Just some padding for the sides to keep the text off the sides of the screen*/
+}
+
+/*All pages links*/
+a:link, a:visited {
+	color:ForestGreen;
+	text-decoration:none;
+}
+a:hover {
+	color:black;
+	text-decoration:underline;
+}
+a:active {
+	color:Orange;
+}
+a.button {
+	color:black;
+	display:block;
+	width:150px;
+	padding:20px;
+	border:3px solid black;
+	text-decoration:none;
+	background-color:LightBlue;
+	text-align:center;
+}
+a.button:hover {
+	text-decoration:underline;
+}
+
+/*All pages tables*/
+table, th, td {
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:7px;
+}
+table {
+	background-color:#bbb;
+}
+table.standards tr:nth-child(even) {
+	background-color:#a7bfde;
+}
+table.standards tr:nth-child(odd) {
+	background-color:#d3dfee;
+}
+table.timetable, table.timetable td {
+	padding:4px;
+}
+
+/*All pages video wrapper*/
+div.video-wrapper {
+	text-align:center;
+}
+
+/*All pages subject selection button except senior maths*/
+p.home {
+	position:absolute; /*Keeps the position locked*/
+	bottom:80px; /*The absolute position is defined here and the next line*/
+	left:0;
+	width:100%; /*Takes up the full width*/
+	padding:5px 0; /*Just some padding for the top and bottom*/
+	margin:0; /*Aligns vertically with the footer*/
+	background-color:LimeGreen;
+	font-size:30px;
+	text-align:center;
+}
+p.home_senior_maths {
+	position:absolute; /*Keeps the position locked*/
+	bottom:80px; /*The absolute position is defined here and the next line*/
+	left:0;
+	width:100%; /*Takes up the full width*/
+	padding:5px 0; /*Just some padding for the top and bottom*/
+	margin:0; /*Aligns vertically with the footer*/
+	background-color:SteelBlue;
+	font-size:30px;
+	text-align:center;
+}
+p.home a:link, p.home a:visited {
+	color:Black;
+	text-decoration:none;
+}
+p.home a:hover {
+	text-decoration:underline;
+}
+p.home a:active {
+	color:Grey;
+}
+/*Colors are defined in the subject-specific code*/
+
+/*Senior maths subject selection button*/
+p.home_senior_maths {
+	position:absolute; /*Keeps the position locked*/
+	bottom:80px; /*The absolute position is defined here and the next line*/
+	left:0;
+	width:100%; /*Takes up the full width*/
+	padding:5px 0; /*Just some padding for the top and bottom*/
+	margin:0; /*Aligns vertically with the footer*/
+	background-color:SteelBlue;
+	font-size:30px;
+	text-align:center;
+}
+p.home_senior_maths a:link, p.home_senior_maths a:visited {
+	color:Black;
+	text-decoration:none;
+}
+p.home_senior_maths a:hover {
+	text-decoration:underline;
+}
+p.home_senior_maths a:active {
+	color:Grey;
+}
+
+/*All pages footer*/
+footer {
+	position:absolute; /*Keeps the position locked*/
+	left:0; /*The absolute position is defined here and the next line*/
+	bottom:0;
+	height: 70px;
+	/*width: 100%; Unnecessary, it already takes up 100%*/
+	padding: 5px 0; /*Just some padding for the top and bottom*/
+	/*margin:0; Also unnecessary*/
+	border-top:2px solid grey;
+	color:grey;
+	text-align:center;
+	font-size:12px;
+}
+
+/*Kawakawa maths*/
+header.kk_maths {
+	background-color:FireBrick;
+}
+nav.kk_maths ul {
+	background-color:FireBrick;
+}
+nav.kk_maths a:link, nav.kk_maths a:visited {
+	background-color:FireBrick;
+}
+nav.kk_maths a.active {
+	background-color:MediumSeaGreen; /*This needs to be defined for each class*/
+}
+nav.kk_maths a:hover {
+	/*Color and text-decoration are defined about in the all pages code*/
+	background-color:#555; /*This also needs to be defined for each class*/
+}
+
+/*Kawakawa occupations*/
+header.kk_occupations {
+	background-color:Orange;
+}
+nav.kk_occupations ul {
+	background-color:Orange;
+}
+nav.kk_occupations a:link, nav.kk_occupations a:visited {
+	background-color:Orange;
+}
+nav.kk_occupations a.active {
+	background-color:MediumSeaGreen; /*This needs to be defined for each class*/
+}
+nav.kk_occupations a:hover {
+	/*Color and text-decoration are defined about in the all pages code*/
+	background-color:#555; /*This also needs to be defined for each class*/
+}
+
+/*Tāwari*/
+header.tāwari {
+	background-color:SteelBlue;
+}
+nav.tāwari ul {
+	background-color:SteelBlue;
+}
+nav.tāwari a:link, nav.tāwari a:visited {
+	background-color:SteelBlue;
+}
+nav.tāwari a.active {
+	background-color:MediumSeaGreen; /*This needs to be defined for each class*/
+}
+nav.tāwari a:hover {
+	/*Color and text-decoration are defined about in the all pages code*/
+	background-color:#555; /*This also needs to be defined for each class*/
+}
+
+/*Junior maths*/
+header.junior_maths {
+	background-color:RebeccaPurple;
+}
+nav.junior_maths ul {
+	background-color:RebeccaPurple;
+}
+nav.junior_maths a:link, nav.junior_maths a:visited {
+	background-color:RebeccaPurple;
+}
+nav.junior_maths a.active {
+	background-color:LimeGreen;
+}
+nav.junior_maths a:hover {
+	/*Color and text-decoration are defined about in the all pages code*/
+	background-color:#555; /*This also needs to be defined for each class*/
+}
+
+/*Senior maths*/
+header.senior_maths {
+	background-color:LimeGreen;
+}
+nav.senior_maths ul {
+	background-color:LimeGreen;
+}
+nav.senior_maths a:link, nav.senior_maths a:visited {
+	background-color:LimeGreen;
+}
+nav.senior_maths a.active {
+	background-color:SteelBlue;
+}
+nav.senior_maths a:hover {
+	/*Color and text-decoration are defined about in the all pages code*/
+	background-color:#555; /*This also needs to be defined for each class*/
+}
