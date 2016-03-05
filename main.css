@@ -237,13 +237,13 @@ nav.tāwari a:hover {
 
 /*Junior maths*/
 header.junior_maths {
-	background-color:SlateBlue;
+	background-color:DarkOrchid;
 }
 nav.junior_maths ul {
-	background-color:SlateBlue;
+	background-color:DarkOrchid;
 }
 nav.junior_maths a:link, nav.junior_maths a:visited {
-	background-color:SlateBlue;
+	background-color:DarkOrchid;
 }
 nav.junior_maths a.active {
 	background-color:LimeGreen;
