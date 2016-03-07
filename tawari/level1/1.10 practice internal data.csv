@@ -1,0 +1,62 @@
+Gender,Age (years),Country of origin,"Travel mode
+to school",Travel time to school (min),Bag weight (kg),School year,Region of residence
+female,14,New Zealand,bus,30,4,10,Auckland Region
+female,14,New Zealand,bike,15,3,10,Bay of Plenty Region
+female,14,New Zealand,bus,15,5.5,10,Northland Region
+female,14,New Zealand,walk,30,6.6,10,Canterbury Region
+female,14,New Zealand,motor,10,4,10,Bay of Plenty Region
+female,13,New Zealand,motor,10,4.4,10,Auckland Region
+male,14,New Zealand,walk,,2.8,10,Otago Region
+male,14,New Zealand,walk,12,8,10,Auckland Region
+male,14,New Zealand,motor,2,8.2,10,Wellington Region
+female,14,New Zealand,bus,15,3.5,10,Auckland Region
+male,14,New Zealand,walk,17,2.2,10,Auckland Region
+female,14,Serbia,bus,15,1,10,Auckland Region
+female,14,New Zealand,walk,10,0,10,Waikato Region
+male,14,New Zealand,walk,1,2,10,Waikato Region
+female,14,New Zealand,motor,8,5.9,10,Auckland Region
+male,14,Papua New Guinea,motor,20,1,10,Canterbury Region
+male,14,Scotland,walk,20,4.3,10,Canterbury Region
+female,14,New Zealand,,30,6.2,10,Waikato Region
+female,14,New Zealand,motor,5,1.1,10,Bay of Plenty Region
+female,14,New Zealand,bus,30,,10,Auckland Region
+female,14,New Zealand,,20,3.1,10,Canterbury Region
+female,14,New Zealand,walk,20,,10,Auckland Region
+male,14,New Zealand,walk,20,3.1,10,Waikato Region
+female,15,New Zealand,walk,1,8,10,Waikato Region
+female,14,New Zealand,bus,50,3.3,10,Auckland Region
+female,14,New Zealand,walk,38,11,10,Auckland Region
+male,14,India,motor,8,6,10,Bay of Plenty Region
+male,14,New Zealand,bus,25,7.1,10,Other South Island
+female,14,England,bus,45,4.5,10,Bay of Plenty Region
+female,14,New Zealand,motor,5,2,10,Auckland Region
+female,15,New Zealand,walk,15,5,11,Waikato Region
+female,15,New Zealand,bus,15,5,11,Otago Region
+male,15,New Zealand,bus,45,0,11,Waikato Region
+female,15,New Zealand,walk,3,2.2,11,Waikato Region
+female,15,New Zealand,motor,5,6.6,11,Auckland Region
+male,15,New Zealand,motor,45,1.4,11,Auckland Region
+female,15,New Zealand,walk,15,4.5,11,Waikato Region
+female,15,Australia,motor,3,4.4,11,Otago Region
+male,14,New Zealand,walk,30,2,11,Auckland Region
+,15,New Zealand,walk,13,,11,Auckland Region
+male,15,Thailand,bike,28,2,11,Wellington Region
+female,15,Scotland,bus,40,,11,Other North Island
+female,15,Pakistan,bus,30,4,11,Auckland Region
+female,15,New Zealand,train,20,5.5,11,Auckland Region
+female,15,New Zealand,motor,15,4,11,Auckland Region
+female,15,New Zealand,motor,25,1.3,11,Auckland Region
+female,15,New Zealand,motor,9,2.6,11,Wellington Region
+female,15,New Zealand,train,45,6,11,Auckland Region
+female,15,New Zealand,walk,2,6,11,Auckland Region
+female,15,Nauru,train,25,1,11,Auckland Region
+male,15,New Zealand,motor,15,0,11,Auckland Region
+male,15,New Zealand,walk,45,1,11,Auckland Region
+female,15,New Zealand,motor,5,3,11,Wellington Region
+female,15,New Zealand,bus,30,4,11,Bay of Plenty Region
+male,15,New Zealand,walk,12,9,11,Otago Region
+female,15,New Zealand,motor,25,4.4,11,Waikato Region
+female,15,New Zealand,walk,40,3.5,11,Canterbury Region
+female,11,New Zealand,motor,10,6.3,11,Otago Region
+female,15,England,motor,15,4.9,11,Auckland Region
+female,15,New Zealand,bus,30,4.1,11,Waikato Region
