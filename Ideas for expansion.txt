@@ -1,18 +1,18 @@
 ﻿Possible ideas for expansion
 
 Tāwari and senior maths
-Workbooks for: 1.2, 2.6, 2.7, 2.9, 2.12, 3.4, 3.6, 3.7, 3.9, 3.10, 3.12, 3.13, 3.15, and scholarship calculus.
-Internals for: 1.1, 2.2, 2.9, 3.3, 3.4, 3.9, 3.10, 3.15, 3.1, and 3.2
+Workbooks for: 1.2, 2.6, 2.7, 2.9, 2.12, 3.4, 3.6, 3.7, 3.9, 3.10, 3.12, 3.13, 3.15, and scholarship calculus
+Internals for: 1.1, 2.2, 3.3, 3.4, 3.9, 3.1, and 3.2
 Externals for: 1.2, 1.12, 2.6, 2.7, 2.12, 3.6, 3.7, 3.12, 3.13, and 3.5
-Slideshows to accompany the lessons.
-Videos to accompany the lessons.
-Scholarship calculus preparation through levels 1-3.
-Worked answers to all past scholarship calculus exam questions.
-Resources in Te Reo.
+Slideshows to accompany the lessons
+Videos to accompany the lessons
+Scholarship calculus preparation through levels 1-3
+Worked answers to all past scholarship calculus exam questions
+Resources in Te Reo
 
 
 Kawakawa maths map
-Progressive map.
-New texts.
-New worksheets.
-Interactive GUI (like an app or a game).
+Progressive map
+New texts
+New worksheets
+Interactive GUI (like an app or a game)
