@@ -4,6 +4,7 @@ Submenus in the Tāwari website. Standards underneath the levels when you click.
 vertical? Taking up its own line underneath the navigation bar taking the full width of the screen.
 
 Tāwari and senior maths
+Different levels of analysis for 1.10, 2.9, and 3.10
 Sample internals
 Curriculum notes, e.g. http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/
 Achievement-objectives/AOs-by-level/AO-S7-1/Level-7-statistical-investigation-notes
