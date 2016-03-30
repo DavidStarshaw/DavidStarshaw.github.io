@@ -5,8 +5,6 @@ vertical? Taking up its own line underneath the navigation bar taking the full w
 
 Tāwari and senior maths
 Different levels of analysis for 1.10, 2.9, and 3.10
-Curriculum notes, e.g. http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/
-Achievement-objectives/AOs-by-level/AO-S7-1/Level-7-statistical-investigation-notes
 Workbooks for: 1.2, 2.6, 2.7, 2.9, 2.12, 3.4, 3.6, 3.7, 3.9, 3.10, 3.12, 3.13, 3.15, and scholarship calculus
 Internals for: 1.1, 2.2, 3.3, 3.4, 3.9, 3.1, and 3.2
 Externals for: 1.2, 1.12, 2.6, 2.7, 2.12, 3.6, 3.7, 3.12, 3.13, and 3.5
