@@ -336,7 +336,7 @@ button.accordion.active, button.accordion:hover {
 div.panel {
     padding: 0 18px;
     display: none;
-    background-color: #ddd;
+    background-color: #ccc;
 }
 
 div.panel.show {
