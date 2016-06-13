@@ -313,3 +313,32 @@ nav.senior_maths a:hover {
 	/*Color and text-decoration are defined about in the all pages code*/
 	background-color:#555; /*This also needs to be defined for each class*/
 }
+
+/*Accordion stuff*/
+button.accordion {
+    background-color: #ddd;
+	color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.2s;
+	padding: 0;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #aaa; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #ddd;
+}
+
+div.panel.show {
+    display: block !important;
+}
