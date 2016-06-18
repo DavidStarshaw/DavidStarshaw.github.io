@@ -17,6 +17,9 @@ h1 {
 	padding:10px;
 	/*Color is defined below in the subject-specific code*/
 }
+p.center {
+	test-align:center;
+}
 
 /*All pages nav bar*/
 nav {
@@ -112,6 +115,9 @@ table.standards tr:nth-child(even) {
 table.standards tr:nth-child(odd) {
 	background-color:#d3dfee;
 }
+table.standards td.center {
+	text-align:center;
+}
 table.timetable, table.timetable td {
 	padding:4px;
 }
@@ -186,7 +192,7 @@ footer {
 	bottom:0;
 	height: 70px;
 	/*width: 100%; Unnecessary, it already takes up 100%*/
-	padding: 5px 0; /*Just some padding for the top and bottom*/
+	padding: 5px 5px; /*Just some padding for the top and bottom*/
 	/*margin:0; Also unnecessary*/
 	border-top:2px solid grey;
 	color:grey;
@@ -260,20 +266,24 @@ nav.kk_occupations a:hover {
 	background-color:#555; /*This also needs to be defined for each class*/
 }
 
-/*Tāwari*/
-header.tāwari {
+/*tawari*/
+header.tawari {
 	background-color:SteelBlue;
 }
-nav.tāwari ul {
+header.tawari p {
+	text-align:center;
+	margin:0;
+}
+nav.tawari ul {
 	background-color:SteelBlue;
 }
-nav.tāwari a:link, nav.tāwari a:visited {
+nav.tawari a:link, nav.tawari a:visited {
 	background-color:SteelBlue;
 }
-nav.tāwari a.active {
+nav.tawari a.active {
 	background-color:MediumSeaGreen; /*This needs to be defined for each class*/
 }
-nav.tāwari a:hover {
+nav.tawari a:hover {
 	/*Color and text-decoration are defined about in the all pages code*/
 	background-color:#555; /*This also needs to be defined for each class*/
 }
