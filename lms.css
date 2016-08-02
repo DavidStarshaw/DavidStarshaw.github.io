@@ -10,12 +10,12 @@ body {
 }
 .sign-in {
 	background: #ffffff;
-	width:396px;
+	width:396px; /*90% of 440px*/
 	padding: 10px;
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); /*Centres the sign-in box*/
 }
 
 img.logo{
@@ -31,5 +31,5 @@ img.logo{
 
 
 .button-wrap {
-	text-align:centre;
+	text-align: center;
 }
