@@ -15,7 +15,7 @@ body {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%); /*Centres the sign-in box*/
+	transform: translate(-50%, -50%); /*Centers the sign-in box*/
 }
 
 img.logo{
@@ -31,5 +31,9 @@ img.logo{
 
 
 .button-wrap {
-	text-align: center;
+	text-align: center; /*Not working*/
+}
+
+.g-signin2 {
+	margin: auto;
 }
