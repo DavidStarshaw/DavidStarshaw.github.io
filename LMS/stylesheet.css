@@ -2,12 +2,17 @@ html {
   height: 100%; /*Allows the background image to be centered vertically*/
 }
 
-body {
+body.login {
     background-image: url("http://www.bosarchitecture.co.nz/media/1312/02.jpg");
 	background-position: center center;
 	background-size: cover;
-	font-family: "Arial";
 }
+
+body {
+	font-family: "Arial";
+	padding: 120px 0 0;
+}
+
 .sign-in {
 	background: #ffffff;
 	width:396px; /*90% of 440px*/
@@ -35,5 +40,29 @@ img.logo{
 }
 
 .g-signin2 {
-	margin: auto;
+	margin: auto; /*Not working*/
+}
+
+header {
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	width: 100%;
+	height: ;
+	background: #EEE;
+	border-bottom: 1px solid black;
+	display: block;
+}
+
+header p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 100%;
+}
+
+section {
+	
+}
+
+img.profile {
+	vertical-align: middle;
 }
