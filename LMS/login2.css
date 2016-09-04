@@ -1,0 +1,33 @@
+html {
+  height: 100%; /*Allows the background image to be centered vertically*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("http://www.bosarchitecture.co.nz/media/1312/02.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+div.sign-in {
+	background: #ffffff;
+	width:396px; /*90% of 440px*/
+	padding: 10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /*Centers the sign-in box*/
+}
+
+div.sign-in img {
+	display: block;
+	margin: auto;
+}
+
+div.sign-in p {
+	text-align:center;
+}
+
+div.sign-in button {
+	margin: auto;
+}
