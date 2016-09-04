@@ -28,6 +28,7 @@ div.sign-in p {
 	text-align:center;
 }
 
-div.sign-in button {
+div.sign-in div.g-signin2 {
+	display: block;
 	margin: auto;
 }
