@@ -12,10 +12,20 @@
 		<img class=logo src="capture.png" id="img" alt="Wa Ora logo">
 		<p>Sign in using your <strong>@waora.school.nz</strong> email address</p>
 		<div class="g-signin2" data-onsuccess="onSignIn"></div>
+		<a href="#" onclick="signOut();">Sign out</a>
+
 	</div>
 	
 	<script src="login2.js"></script> <!--My script-->
 	<script src="https://apis.google.com/js/platform.js" async defer></script> <!--Google platform library. Needed for sign-in-->
+	<script>
+	  function signOut() {
+		var auth2 = gapi.auth2.getAuthInstance();
+		auth2.signOut().then(function () {
+		  console.log('User signed out.');
+		});
+	  }
+	</script>
 </body>
 
 </html>
