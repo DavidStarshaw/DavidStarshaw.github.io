@@ -1,1 +1,5 @@
-alert("Hi there, and welcome from th JS.")
+alert("Hello world");
+
+document.getElementByID("div").onclick = function() {
+	alert("Hello world");
+};
