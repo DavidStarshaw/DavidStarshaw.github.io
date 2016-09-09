@@ -23,6 +23,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); /*Centers the sign-in box*/
+	box-shadow: 0 0 5px 5px #fff;
 }
 
 img.logo{

@@ -1,8 +1,6 @@
 document.getElementById("img").onclick = function() {
-	alert("Hello world");
+	//alert("Hello world");
 };
-
-alert("Hello world");
 
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();

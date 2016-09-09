@@ -17,6 +17,7 @@ div.sign-in {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%); /*Centers the sign-in box*/
+	box-shadow: 0 0 5px 5px #fff;
 }
 
 div.sign-in img {
@@ -30,5 +31,5 @@ div.sign-in p {
 
 div.sign-in div.g-signin2 {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto; /*Not working*/
 }
