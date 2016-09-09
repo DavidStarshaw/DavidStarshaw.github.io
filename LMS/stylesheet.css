@@ -38,11 +38,11 @@ img.logo{
 
 
 .button-wrap {
-	text-align: center; /*Not working*/
+	margin: 0 auto;
 }
 
 .g-signin2 {
-	margin: auto; /*Not working*/
+	margin: 0 auto;
 }
 
 header {

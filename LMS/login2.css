@@ -30,5 +30,5 @@ div.sign-in p {
 
 div.sign-in div.g-signin2 {
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 }
