@@ -26,6 +26,8 @@
 <body>
 	<div class="g-signin2" data-onsuccess="onSignIn"></div>
 	<a href=# onclick="signOut();">Sign out</a>
+	<a href=login_test2.html>Second page</a>
+	<button id="sign-in details">Log details</button>
 	
 	<script>
 		document.getElementById("sign-in details").onclick = function() {
@@ -36,9 +38,6 @@
 			console.log('Email: ' + profile.getEmail());
 		};
 	</script>
-	
-	<a href=login_test2.html>Second page</a>
-	<button id="sign-in details">Log details</button>
 </body>
 
 </html>
