@@ -6,6 +6,11 @@
 	<meta name="google-signin-client_id" content="795531022003-rdb02epf7o0qpr5p83326icrseh82gqa.apps.googleusercontent.com"> <!--My google sign-in client ID-->
 	<script src="https://apis.google.com/js/platform.js" async defer></script> <!--Google platform library. Needed for sign-in-->
 	<script async defer>
+		var MyApp = {
+			profile: null;
+		};
+
+		
 		function signOut() {
 			var auth2 = gapi.auth2.getAuthInstance();
 			auth2.signOut().then(function () {
@@ -14,7 +19,7 @@
 		}
 		
 		function onSignIn(googleUser) {
-			var profile = googleUser.getBasicProfile();
+			profile = googleUser.getBasicProfile();
 			console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
 			console.log('Name: ' + profile.getName());
 			console.log('Image URL: ' + profile.getImageUrl());
