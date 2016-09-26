@@ -4,6 +4,8 @@
 <head>
 	<title>W&#257; Ora LMS login</title>
 	<meta name="google-signin-client_id" content="795531022003-rdb02epf7o0qpr5p83326icrseh82gqa.apps.googleusercontent.com"> <!--My google sign-in client ID-->
+	<script src="https://apis.google.com/js/platform.js" async defer></script> <!--Google platform library. Needed for sign-in-->
+	<script src="login.js"></script> <!--My script-->
 	<link rel=stylesheet href=login.css>
 	<link rel="icon" href=../favicon.ico type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> <!---My font. Also needs to be called in the css-->
@@ -16,9 +18,6 @@
 		<div class="g-signin2" data-onsuccess="onSignIn"></div>
 		<a href="#" onclick="signOut();">Sign out</a>
 	</div>
-	
-	<script src="login.js"></script> <!--My script-->
-	<script src="https://apis.google.com/js/platform.js" async defer></script> <!--Google platform library. Needed for sign-in-->
 </body>
 
 </html>
