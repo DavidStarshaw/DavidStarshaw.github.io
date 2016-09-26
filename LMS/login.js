@@ -4,7 +4,7 @@ function onSignIn(googleUser) {
   console.log('Name: ' + profile.getName());
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail());
-  window.location.href = "home.html";
+  //window.location.href = "home.html";
 }
 
 function signOut() {
