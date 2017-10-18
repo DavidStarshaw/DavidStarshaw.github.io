@@ -2,3 +2,7 @@ body {
   background: url("http://www.americanthinker.com/images/bucket/2014-04/192255_5_.jpg") no-repeat center center fixed; 
   background-size: cover;
 }
+
+h1 {
+  color: blue;
+}
