@@ -1,8 +1,11 @@
-body { 
-  background: url("http://www.americanthinker.com/images/bucket/2014-04/192255_5_.jpg") no-repeat center center fixed; 
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
 h1 {
-  color: blue;
+  color: green;
 }
