@@ -1,1 +1,7 @@
-
+body {
+    background-image: url("http://www.americanthinker.com/images/bucket/2014-04/192255_5_.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
