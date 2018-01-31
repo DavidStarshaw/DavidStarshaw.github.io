@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -106,3 +107,12 @@ div.panel.show {
 .standard {
 	display:none;
 }
+=======
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 10px 0 10px 0;
+}
+>>>>>>> origin/master

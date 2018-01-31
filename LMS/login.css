@@ -4,8 +4,13 @@ html {
 }
 
 body {
+<<<<<<< HEAD
     background-image: url("http://resco.co.nz/wp-content/uploads/2015/04/Capture87-752x410.png");
 	background-position: center;
+=======
+    background-image: url("http://ll-c.ooyala.com/e1/9wMmZoYzE6ApkUTFe49SpItVZ2zpPW-a/promo328483561");
+	background-position: center center;
+>>>>>>> origin/master
 	background-size: cover;
 	background-attachment: fixed;
 }
