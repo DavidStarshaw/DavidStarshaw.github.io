@@ -1,256 +1,146 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-	<meta charset=UTF-8>
-	<title>Level 3 calculus</title>
-	<link rel=stylesheet href=../../main.css>
-	<link rel="icon" href=../../favicon.ico type="image/x-icon">
-</head>
-<body>
-
-<header class=tawari>
-	<h1>Level 3 calculus</h1>
-</header>
-
-<nav class=tawari>
-	<ul>
-		<li><a href=../tawari.html>Home</a></li>
-		<li class=dropdown><a href=../level1/level1.html>Level 1</a>
-			<div class=dropdown-content>
-				<a href=../level1/1.10.html>1.10 Multivariate data</a>
-				<a href=../level1/1.1.html>1.1 Number</a>
-				<a href=../level1/1.12.html>1.12 Chance and data</a>
-				<a href=../level1/1.2.html>1.2 Algebra</a>
+<html>
+	<head>
+		<title>Level 3 calculus</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="../../icon.ico" type="image/x-icon">
+		<link rel=stylesheet href="../../stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<script type="text/javascript" src="../../script.js" async></script>
+	</head>
+	<body>
+		<header>
+			<h1>Level 3 calculus</h1>
+		</header>
+		<div class="row">
+			<div class="col-3 menu">
+				<a href="../../index.html"><button>Home</button></a>
+				<button onClick="myFunction(3.3)">3.3 Trigonometry</button>
+				<button onClick="myFunction(3.6)">3.6 Differentiation</button>
+				<button onClick="myFunction(3.7)">3.7 Integration</button>
+				<button onClick="myFunction(3.15)">3.15 Simultaneous equations</button>
 			</div>
-		</li>
-		<li class=dropdown><a href=../level2/level2.html>Level 2</a>
-			<div class=dropdown-content>
-				<a href=../level2/2.9.html>2.9 Informal inference</a>
-				<a href=../level2/2.2.html>2.2 Graphs</a>
-				<a href=../level2/2.6.html>2.6 Algebra</a>
-				<a href=../level2/2.7.html>2.7 Calculus</a>
+			<div class="col-9 standard" id="3.3">
+				<h2>3.3 Trigonometry</h2>
+				<h3>Apply trigonometric methods in solving problems</h3>
+				<h3>AS91575, version 2 (2017), internal, 4 credits</h3>
+				<p><a href=http://www.nzqa.govt.nz/assets/qualifications-and-standards/qualifications/ncea/NCEA-subject-resources/Mathematics/L3-Maths-Formulae-2013.pdf target=_blank>Formulae and tables booklet</a></p>
+				<p><a href=https://www.geogebra.org/o/JRQ7T4Nj target=_blank>Ferris Wheel diagram</a></p>
+				<p>Unit circle and <a href=https://www.geogebra.org/m/S2gMrkbD target=_blank>sine graph</a>, <a href=https://www.geogebra.org/m/MjFgAfBv target=_blank>cosine graph</a>, and <a href=https://www.geogebra.org/m/cf6KYJeb target=_blank>tangent graph</a>, resources by <a href=https://www.geogebra.org/orchiming target=_blank>Anthony C.M. OR</a></p>
+				<p><a href=https://www.geogebra.org/o/rrP8XnGe target=_blank>Transformations of trigonometric graphs- Geogebra resource</a></p>
+				<p><a href=http://www.nzqa.govt.nz/assets/qualifications-and-standards/qualifications/ncea/NCEA-subject-resources/Mathematics/91575/91575-EXP.pdf target=_blank>Exemplars</a></p>
+				<p><a href=https://drive.google.com/file/d/0B5fpCjW4UJEmZWpuWkxkdjR0bjg/view?usp=sharing target=_blank>Sample internal 1</a><br>
+				<a href=https://drive.google.com/file/d/0B5fpCjW4UJEmaGVqWmw3WDZUb1E/view?usp=sharing target=_blank>Sample internal 2</a></p>
+				<p><a href=http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91575.pdf target=_blank>Standard</a> (v2, 2017)<br>
+				<a href=http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/subjects/mathematics/clarifications/level-4/as91575/ target=_blank>Standard clarifications</a> (September 2015)<br>
+				<a href=https://drive.google.com/file/d/0B5fpCjW4UJEmaWVzanJ6RzFkaWc/view?usp=sharing target=_blank>Conditions of assessment</a> (2017)</p>
+				<p>This standard is linked to level 8 of the New Zealand Curriculum. It links to the achievement objectives:</p>
+				<ul>
+					<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-6 target=_blank>M8-6 Manipulate trigonometric expressions</a></li>
+					<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-7 target=_blank>M8-7 Form and use trigonometric equations</a></li>
+				</ul>				
 			</div>
-		</li>
-		<li class=dropdown><a href=../level3_statistics/level3_statistics.html>Level 3 statistics</a>
-			<div class=dropdown-content>
-				<a href=../level3_statistics/3.10.html>3.10 Formal inference</a>
-				<a href=../level3_statistics/3.9.html>3.9 Bivariate data</a>
-				<a href=../level3_statistics/3.4.html>3.4 Critical path analysis</a>
-				<a href=../level3_statistics/3.12.html>3.12 Statistical reports</a>
-				<a href=../level3_statistics/3.13.html>3.13 Probability concepts</a>
+			<div class="col-9 standard" id="3.6">
+				<h2>3.6 Differentiation</h2>
+				<h3>Apply differentiation methods in solving problems</h3>
+				<h3>AS91578, version 2 (2017), external, 6 credits</h3>
+				<p><a href="http://www.learncoach.co.nz/achievement-standards/num/91578" target="_blank">LearnCoach video tutorials</a></p>
+				<table>
+					<tr>
+						<td>2016</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2016/91578-exm-2016.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2016/91578-ass-2016.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91578-exm-2015.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2015/91578-ass-2015.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2014/91578-exm-2014.pdf" target="_blank">exam</a></td>
+						<td><a href="https://drive.google.com/a/waora.school.nz/file/d/0B5fpCjW4UJEmVndZOXZ0SXc5ZFU/view?usp=sharing" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2013</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2013/91578-exm-2013.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2013/91578-ass-2013.pdf" target="_blank">answers</a></td>
+					</tr>
+				</table>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91577-frm-2015.pdf" target="_blank">Formulae and tables resource</a></p>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91578.pdf" target="_blank">Standard</a> (v2, 2017)<br>
+				<a href="http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/subjects/assessment-specifications/calculus-l3/" target="_blank">Assessment specifications</a> (2017)</p>
+				<p>This standard is linked to level 8 of the New Zealand Curriculum. It links to the achievement objectives:
+					<ul>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-10 target=_blank>M8-10 Identify discontinuities and limits of functions</a></li>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-11 target=_blank>M8-11 Choose and apply a variety of differentiation, integration, and anti-differentiation techniques to functions and relations, using both analytical and numerical methods</a></li>
+					</ul>
+				</p>
 			</div>
-		</li>
-		<li class=dropdown><a class=active href=../level3_calculus/level3_calculus.html>Level 3 calculus</a>
-			<div class=dropdown-content>
-				<a href=3.15.html>3.15 Simultaneous equations</a>
-				<a href=3.3.html>3.3 Trigonometry</a>
-				<a href=3.6.html>3.6 Differentiation</a>
-				<a href=3.7.html>3.7 Integration</a>
+			<div class="col-9 standard" id="3.7">
+				<h2>3.7 Integration</h2>
+				<h3>Apply integration methods in solving problems</h3>
+				<h3>AS91579, version 2 (2017), external, 6 credits</h3>
+				<p><a href=http://www.learncoach.co.nz/achievement-standards/num/91579 target=_blank>LearnCoach video tutorials</a></p>
+				<table>
+					<tr>
+						<td>2016</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2016/91579-exm-2016.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2016/91579-ass-2016.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91579-exm-2015.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2015/91579-ass-2015.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2014/91579-exm-2014.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2014/91579-ass-2014.pdf" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2013</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2013/91579-exm-2013.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2013/91579-ass-2013.pdf" target="_blank">answers</a></td>
+					</tr>
+				</table>
+				<p><a href=http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91577-frm-2015.pdf target=_blank>Formulae and tables resource</a></p>
+				<p><a href=http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91579.pdf target=_blank>Standard</a> (v2, 2017)<br>
+				<a href=http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/subjects/assessment-specifications/calculus-l3/ target=_blank>Assessment specifications</a> (2017)</p>
+				<p>This standard is linked to level 8 of the New Zealand Curriculum. It links to the achievement objectives:
+					<ul>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-11 target=_blank>M8-11 Choose and apply a variety of differentiation, integration, and anti-differentiation techniques to functions and relations, using both analytical and numerical methods</a></li>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-12 target=_blank>M8-12 Form differential equations and interpret the solutions</a></li>
+					</ul>
+				</p>
 			</div>
-		</li>
-		<li><a href=../scholarship_calculus/scholarship_calculus.html>Scholarship calculus</a></li>
-		<li class=right><a href=../about_tawari.html>About</a></li>
-	</ul>
-</nav>
-
-<!--
-<section>
-	<h2>Introduction for parents</h2>
-	<p>
-		The level 3 calculus course expands on the calculus learning that the students have done in levels 1 and 2. The course is dominated by the two big externals: differentiation and integration. The students start term 1 by looking at systems of simultaneous equations in three dimensions with 3.15. For the rest of term 1, the students explore trigonometry, especially modelling using trigonometric graphs, in 3.3.
-	</p>
-	<p>
-		In term 2, the students tackle the first big external: differentiation (3.6). It is the study of motion and change and is used everywhere from planetary motion to stock markets.
-	</p>
-	<p>
-		Term 3 brings the other big external, integration (3.7). It is the reverse of differentiation and is used everywhere that differentiation is used plus a few bonus areas such as areas between curves.
-	</p>
-	<p>
-		Term 4 is dedicated to revision.
-	</p>
-	<p>
-		There are 19 credits available in this course, 33% internal and 67% external.
-	</p>
-	<h3>Homework</h3>
-	<p>
-		The students are expected to do 'enough' homework to feel they have understood the concept they are currently working on.
-	</p>
-</section>
--->
-
-<section>
-	<h2>Standards</h2>
-	<table class=standards>
-		<tr>
-			<th>Number</th>
-			<th>Standard</th>		
-			<th>I/E</th>
-			<th>Credits</th>
-			<th>Due date</th>
-		</tr>
-		<tr>
-			<td class=center>AS91261</td>
-			<td><a href=3.15.html>3.15 Apply systems of simultaneous equations in solving problems</a></td>
-			<td class=center>I</td>
-			<td class=center>3</td>
-			<td class=center>TBC for 2017</td>
-		</tr>
-		<tr>
-			<td class=center>AS91575</td>
-			<td><a href=3.3.html>3.3 Apply trigonometric methods in solving problems</a></td>
-			<td class=center>I</td>
-			<td class=center>4</td>
-			<td class=center>TBC for 2017</td>
-		</tr>
-		<tr>
-			<td class=center>AS91578</td>
-			<td><a href=3.6.html>3.6 Apply differentiation methods in solving problems</a></td>
-			<td class=center>E</td>
-			<td class=center>6</td>
-			<td class=center>Externally assessed</td>
-		</tr>
-		<tr>
-			<td class=center>AS91579</td>
-			<td><a href=3.7.html>3.7 Apply integration methods in solving problems</a></td>
-			<td class=center>E</td>
-			<td class=center>6</td>
-			<td class=center>Externally assessed</td>
-		</tr>
-	</table>
-</section>
-
-<!--
-<section>
-	<h2>Year plan</h2>
-	<table class=timetable>
-		<tr>
-			<th colspan=2>Term and week</th>
-			<th>Standard</th>
-		<tr>
-			<td rowspan=9>Term 1</td>
-			<td>Week 3</td>
-			<td rowspan=5>3.15 Simultaneous equations</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-		<tr>
-			<td>Week 5</td>
-		</tr>
-		<tr>
-			<td>Week 6</td>
-		</tr>
-		<tr>
-			<td>Week 7</td>
-		</tr>
-		<tr>
-			<td>Week 8</td>
-			<td rowspan=4>3.3 Trigonometry</td>
-		</tr>
-		<tr>
-			<td>Week 9</td>
-		</tr>
-		<tr>
-			<td>Week 10</td>
-		</tr>
-		<tr>
-			<td>Week 11</td>
-		</tr>
-		<tr>
-			<td rowspan=10>Term 2</td>
-			<td>Week 1</td>
-			<td rowspan=10>3.6 Differentiation</td>
-		</tr>
-		<tr>
-			<td>Week 2</td>
-		</tr>
-		<tr>
-			<td>Week 3</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-		<tr>
-			<td>Week 5</td>
-		</tr>
-		<tr>
-			<td>Week 6</td>
-		</tr>
-		<tr>
-			<td>Week 7</td>
-		</tr>
-		<tr>
-			<td>Week 8</td>
-		</tr>
-		<tr>
-			<td>Week 9</td>
-		</tr>
-		<tr>
-			<td>Week 10</td>
-		</tr>
-		<tr>
-			<td rowspan=9>Term 3</td>
-			<td>Week 1</td>
-			<td rowspan=9>3.7 Integration</td>
-		</tr>
-		<tr>
-			<td>Week 2</td>
-		</tr>
-		<tr>
-			<td>Week 3</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-		<tr>
-			<td>Week 5</td>
-		</tr>
-		<tr>
-			<td>Week 6</td>
-		</tr>
-		<tr>
-			<td>Week 7</td>
-		</tr>
-		<tr>
-			<td>Week 8</td>
-		</tr>
-		<tr>
-			<td>Week 9</td>
-		</tr>
-		<tr>
-			<td rowspan=4>Term 4</td>
-			<td>Week 1</td>
-			<td rowspan=4>Revision for the<br>
-			externals (3.6, 3.7)</td>
-		</tr>
-		<tr>
-			<td>Week 2</td>
-		</tr>
-		<tr>
-			<td>Week 3</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-	</table>
-</section>
--->
-
-<footer>
-	<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>
-		<img alt="Creative Commons License" src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png>
-	</a>
-	<br>This website is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Most of the resources on this site (e.g. the workbooks and the video lessons) are mine and are available to use, distribute, copy, and rework as long as you credit this site and don't sell any of the resources. The few exceptions are credited to the respective creators.
-</footer>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-73780895-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</body>
+			<div class="col-9 standard" id="3.15">
+				<h2>3.15 Simultaneous equations</h2>
+				<h3>Apply systems of simultaneous equations in solving problems</h3>
+				<h3>AS91587, version 2 (2017), internal, 3 credits</h3>
+				<hr>
+				<h4>Workbook</h4>
+				<a href="3.15 workbook 2018.pdf" target="_blank">3.15 workbook</a>
+				<h4>Standard information</h4>
+				<a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91587.pdf" target="_blank">Standard</a> (v2, 2017)<br>
+				<a href="http://www.nzqa.govt.nz/ncea/subjects/mathematics/clarifications/level-3/as91587/" target="_blank">Standard clarifications</a> (September 2015)
+				<h4>Assessment information</h4>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmaWVzanJ6RzFkaWc/view?usp=sharing" target="_blank">Conditions of assessment</a> (2017)<br>
+				<a href="http://www.nzqa.govt.nz/assets/qualifications-and-standards/qualifications/ncea/NCEA-subject-resources/Mathematics/91587/91587-EXP.pdf" target="_blank">Exemplars</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmblFGU0tJQURYQlU/view?usp=sharing" target="_blank">Sample internal 1</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmay1DUzNUZXJ0c1U/view?usp=sharing" target="_blank">Sample internal 2</a>
+				<h4>Curriculum links</h4>
+				<p>This standard is linked to level 8 of the New Zealand Curriculum. It links to the achievement objective:
+					<ul>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M8-8" target="_blank">M8-8 Form and use systems of simultaneous equations, including three linear equations and three variables, and interpret the solutions in context</a></li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+			<br>
+			<p>This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. All resources are available to use, distribute, and rework but cannot be sold.</p>
+		</footer>
+	</body>
 </html>

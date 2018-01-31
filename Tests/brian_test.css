@@ -1,0 +1,50 @@
+body {
+	background-color: light-grey;
+}
+
+
+p {
+	color: black;
+	text-align: center;
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-family:  "Times New Roman", Times, serif;;
+}
+h2{
+	color: black;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+img{
+	 display: block;
+    	margin: auto;
+    	width: 20;
+}
+li {
+    display: inline;
+	margin: 0 auto;
+}
+ a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+	 a{
+		background-color: light-green;
+	}
+
+ul {
+	padding: 0;
+	margin: 10px auto;
+}

@@ -1,256 +1,247 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-	<meta charset=UTF-8>
-	<title>Level 2</title>
-	<link rel=stylesheet href=../../main.css>
-	<link rel="icon" href=../../favicon.ico type="image/x-icon">
-</head>
-<body>
-
-<header class=tawari>
-	<h1>Level 2</h1>
-</header>
-
-<nav class=tawari>
-	<ul>
-		<li><a href=../tawari.html>Home</a></li>
-		<li class=dropdown><a href=../level1/level1.html>Level 1</a>
-			<div class=dropdown-content>
-				<a href=../level1/1.10.html>1.10 Multivariate data</a>
-				<a href=../level1/1.1.html>1.1 Number</a>
-				<a href=../level1/1.12.html>1.12 Chance and data</a>
-				<a href=../level1/1.2.html>1.2 Algebra</a>
+<html>
+	<head>
+		<title>Level 2 maths</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="../../icon.ico" type="image/x-icon">
+		<link rel=stylesheet href="../../stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<script type="text/javascript" src="../../script.js" async></script>
+	</head>
+	<body>
+		<header>
+			<h1>Level 2</h1>
+		</header>
+		<div class="row">
+			<div class="col-3 menu">
+				<a href="../../index.html"><button>Home</button></a>
+				<button onClick="myFunction(2.6)">2.6 Algebra</button>
+				<button onClick="myFunction(2.7)">2.7 Calculus</button>
+				<button onClick="myFunction(2.9)">2.9 Inference</button>
+				<button onClick="myFunction('2.10')">2.10 Experiment</button>
+				<button onClick="myFunction(2.12)">2.12 Probability</button>
+				<button onClick="myFunction(2.14)">2.14 Systems of equations</button>
 			</div>
-		</li>
-		<li class=dropdown><a class=active href=level2.html>Level 2</a>
-			<div class=dropdown-content>
-				<a href=2.9.html>2.9 Informal inference</a>
-				<a href=2.2.html>2.2 Graphs</a>
-				<a href=2.6.html>2.6 Algebra</a>
-				<a href=2.7.html>2.7 Calculus</a>
+			<div class="col-9 standard" id="2.6">
+				<h2>2.6 Algebra</h2>
+				<h3>Apply algebraic methods in solving problems</h3>
+				<h3>AS91261, version 3 (2016), external, 4 credits</h3>
+				<p><a href="http://www.learncoach.co.nz/achievement-standards/num/91261" target="_blank">LearnCoach video tutorials</a></p>
+				<table>
+					<tr>
+						<td>2016</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2016/91261-exm-2016.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2016/91261-ass-2016.pdf" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91261-exm-2015.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2015/91261-ass-2015.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2014/91261-exm-2014.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2014/91261-ass-2014.pdf" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2013</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2013/91261-exm-2013.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2013/91261-ass-2013.pdf" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2012</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2012/91261-exm-2012.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2012/91261-ass-2012.pdf" target="_blank">answers</a></td>
+					</tr>
+				</table>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91261-frm-2015.pdf" target="_blank">Formulae sheet</a></p>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2016/as91261.pdf" target="_blank">Standard</a> (v3, 2016)<br>
+				<a href="http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/subjects/assessment-specifications/mathematics-l2/" target="_blank">Assessment specifications</a> (2017)</p>
+				<p>
+					This standard is linked to level 7 of the New Zealand Curriculum. It links to the achievement objectives:
+					<ul>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M7-6 target=_blank>M7-6 Manipulate rational, exponential, and logarithmic algebraic expressions</a></li>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M7-7 target=_blank>M7-7 Form and use linear, quadratic, and simple trigonometric equations</a></li>
+					</ul>
+				</p>				
 			</div>
-		</li>
-		<li class=dropdown><a href=../level3_statistics/level3_statistics.html>Level 3 statistics</a>
-			<div class=dropdown-content>
-				<a href=../level3_statistics/3.10.html>3.10 Formal inference</a>
-				<a href=../level3_statistics/3.9.html>3.9 Bivariate data</a>
-				<a href=../level3_statistics/3.4.html>3.4 Critical path analysis</a>
-				<a href=../level3_statistics/3.12.html>3.12 Statistical reports</a>
-				<a href=../level3_statistics/3.13.html>3.13 Probability concepts</a>
+			<div class="col-9 standard" id="2.7">
+				<h2>2.7 Calculus</h2>
+				<h3>Apply calculus methods in solving problems</h3>
+				<h3>AS91262, version 3 (2016), external, 5 credits</h3>
+				<p><a href="http://www.learncoach.co.nz/achievement-standards/num/91262" target="_blank">LearnCoach video tutorials</a></p>
+				<table>
+					<tr>
+						<td>2016</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2016/91262-exm-2016.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2016/91262-ass-2016.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91262-exm-2015.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2015/91262-ass-2015.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2014/91262-exm-2014.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2014/91262-ass-2014.pdf" target=_blank>answers</a></td>
+					</tr>
+					<tr>
+						<td>2013</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2013/91262-exm-2013.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2013/91262-ass-2013.pdf" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2012</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2012/91262-exm-2012.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2012/91262-ass-2012.pdf" target="_blank">answers</a></td>
+					</tr>
+				</table>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91261-frm-2015.pdf" target="_blank">Formula sheet</a></p>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2016/as91262.pdf" target="_blank">Standard</a> (v3, 2016)<br>
+				<a href="http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/subjects/assessment-specifications/mathematics-l2/" target="_blank">Assessment specifications</a> (2017)</p>
+				<p>This standard is linked to level 7 of the New Zealand Curriculum. It links to the achievement objectives:
+					<ul>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M7-9 target=_blank>M7-9 Sketch the graphs of functions and their gradient functions and describe the relationship between these graphs</a></li>
+						<li><a href=http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M7-10 target=_blank>M7-10 Apply differentiation and anti-differentiation techniques to polynomials</a></li>
+					</ul>
+				</p>
 			</div>
-		</li>
-		<li class=dropdown><a href=../level3_calculus/level3_calculus.html>Level 3 calculus</a>
-			<div class=dropdown-content>
-				<a href=../level3_calculus/3.15.html>3.15 Simultaneous equations</a>
-				<a href=../level3_calculus/3.3.html>3.3 Trigonometry</a>
-				<a href=../level3_calculus/3.6.html>3.6 Differentiation</a>
-				<a href=../level3_calculus/3.7.html>3.7 Integration</a>
+			<div class="col-9 standard" id="2.9">
+				<h2>2.9 Inference</h2>
+				<h3>Use statistical methods to make an inference</h3>
+				<h3>AS91264, version 3 (2016), internal, 4 credits</h3>
+				<hr>
+				<h4>Workbook</h4>
+				<a target="_blank">2.9 workbook</a>
+				<h4>NZGrapher</h4>
+				<a href="https://www.jake4maths.com/grapher/" target="_blank">NZGrapher</a>
+				<h4>Standard information</h4>
+				<a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2016/as91264.pdf" target="_blank">Standard</a> (v3, 2016)<br>
+				<a href="http://www.nzqa.govt.nz/ncea/subjects/mathematics/clarifications/level-2/achievement-standards/" target="_blank">Level 2 clarifications</a><br>
+				<a href="http://www.nzqa.govt.nz/ncea/subjects/mathematics/clarifications/level-2/as91264/" target="_blank">Standard clarifications</a> (December 2016)
+				<h4>Assessment information</h4>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmS2FGVEhfLTJISFE/view?usp=sharing" target="_blank">Conditions of assessment</a> (2017)<br>
+				<a href="http://www.nzqa.govt.nz/assets/qualifications-and-standards/qualifications/ncea/NCEA-subject-resources/Mathematics/91264/91264-EXP.pdf" target="_blank">Exemplars</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmTHRab2tqSi1SR3c/view?usp=sharing" target="_blank">Sample internal 1</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmZjhnUXptcUc3T2M/view?usp=sharing" target="_blank">Sample internal 2</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmNjVmZGJBcTZ3a1U/view?usp=sharing" target="_blank">Sample internal 3</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmUms2WkVJWm56eDQ/view?usp=sharing" target="_blank">Sample internal 4</a>
+				<h4>Curriculum links</h4>
+				<p>This standard is linked to level 7 of the New Zealand Curriculum. It links to the level 7 achievement objectives:
+					<ul>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-S7-1" target="_blank">S7-1 Carry out investigations of phenomena, using the statistical enquiry cycle:</a>
+							<ul>
+								<li>using existing data sets;</li>
+								<li>evaluating the choice of sampling and data collection methods used;</li>
+								<li>using relevant contextual knowledge, exploratory data analysis, and statistical inference</li>
+							</ul>
+						</li>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-S7-2" target="_blank">S7-2 Make inferences from surveys:</a>
+							<ul>
+								<li>using sample statistics to make point estimates of population parameters;</li>
+								<li>recognising the effect of sample size on the variability of an estimate</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
 			</div>
-		</li>
-		<li><a href=../scholarship_calculus/scholarship_calculus.html>Scholarship calculus</a></li>
-		<li class=right><a href=../about_tawari.html>About</a></li>
-	</ul>
-</nav>
-
-<!--
-<section>
-	<h2>Introduction for parents</h2>
-	<p>
-		The level 2 maths course extends what the students learnt in level 1 and prepares them for studying level 3 statistics and/or level 3 calculus. The students start by revisiting inference from level 1. Then they look at several functions (parabolas, exponential and logarithmic functions, etc.) with the graphs standard (2.2).
-	</p>
-	<p>
-		In the second half of term 2, they begin their first external, algebra (2.6).
-	</p>
-	<p>
-		In term 3, the students begin their second and final external: calculus (2.7). Combined with algebra, these two externals prepare the students to study level 3 calculus next year.
-	</p>
-	<p>
-		Term 4 is dedicated to revision.
-	</p>
-	<p>
-		There are 17 credits available in this course, 50% internal and 50% external. The course is split into 25% statistics (2.9) and 75% calculus (2.2, 2.6, 2.7).
-	</p>
-	<h3>Homework</h3>
-	<p>
-		The students are expected to do 'enough' homework to feel they have understood the concept they are currently working on.
-	</p>
-</section>
--->
-
-<section>
-	<h2>Standards</h2>
-	<table class=standards>
-		<tr>
-			<th>Number</th>
-			<th>Standard</th>		
-			<th>I/E</th>
-			<th>Credits</th>
-			<th>Due date</th>
-		</tr>
-		<tr>
-			<td class=center>AS91264</td>
-			<td><a href=2.9.html>2.9 Use statistical methods to make an inference</a></td>
-			<td class=center>I</td>
-			<td class=center>4</td>
-			<td class=center>TBC for 2017</td>
-		</tr>
-		<tr>
-			<td class=center>AS91257</td>
-			<td><a href=2.2.html>2.2 Apply graphical methods in solving problems</a></td>
-			<td class=center>I</td>
-			<td class=center>4</td>
-			<td class=center>TBC for 2017</td>
-		</tr>
-		<tr>
-			<td class=center>AS91261</td>
-			<td><a href=2.6.html>2.6 Apply algebraic methods in solving problems</a></td>
-			<td class=center>E</td>
-			<td class=center>4</td>
-			<td class=center>Externally assessed</td>
-		</tr>
-		<tr>
-			<td class=center>AS91262</td>
-			<td><a href=2.7.html>2.7 Apply calculus methods in solving problems</a></td>
-			<td class=center>E</td>
-			<td class=center>5</td>
-			<td class=center>Externally assessed</td>
-		</tr>
-	</table>
-</section>
-
-<!--
-<section>
-	<h2>Year plan</h2>
-	<table class=timetable>
-		<tr>
-			<th colspan=2>Term and week</th>
-			<th>Standard</th>
-		<tr>
-			<td rowspan=9>Term 1</td>
-			<td>Week 3</td>
-			<td rowspan=6>2.9 Inferece</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-		<tr>
-			<td>Week 5</td>
-		</tr>
-		<tr>
-			<td>Week 6</td>
-		</tr>
-		<tr>
-			<td>Week 7</td>
-		</tr>
-		<tr>
-			<td>Week 8</td>
-		</tr>
-		<tr>
-			<td>Week 9</td>
-			<td rowspan=8>2.2 Graphs</td>
-		</tr>
-		<tr>
-			<td>Week 10</td>
-		</tr>
-		<tr>
-			<td>Week 11</td>
-		</tr>
-		<tr>
-			<td rowspan=10>Term 2</td>
-			<td>Week 1</td>
-		</tr>
-		<tr>
-			<td>Week 2</td>
-		</tr>
-		<tr>
-			<td>Week 3</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-		<tr>
-			<td>Week 5</td>
-		</tr>
-		<tr>
-			<td>Week 6</td>
-			<td rowspan=5>2.6 Algebra</td>
-		</tr>
-		<tr>
-			<td>Week 7</td>
-		</tr>
-		<tr>
-			<td>Week 8</td>
-		</tr>
-		<tr>
-			<td>Week 9</td>
-		</tr>
-		<tr>
-			<td>Week 10</td>
-		</tr>
-		<tr>
-			<td rowspan=9>Term 3</td>
-			<td>Week 1</td>
-			<td rowspan=9>2.7 Calculus</td>
-		</tr>
-		<tr>
-			<td>Week 2</td>
-		</tr>
-		<tr>
-			<td>Week 3</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-		<tr>
-			<td>Week 5</td>
-		</tr>
-		<tr>
-			<td>Week 6</td>
-		</tr>
-		<tr>
-			<td>Week 7</td>
-		</tr>
-		<tr>
-			<td>Week 8</td>
-		</tr>
-		<tr>
-			<td>Week 9</td>
-		</tr>
-		<tr>
-			<td rowspan=4>Term 4</td>
-			<td>Week 1</td>
-			<td rowspan=4>Revision for the externals<br>
-			(2.6, 2.7, 2.12)</td>
-		</tr>
-		<tr>
-			<td>Week 2</td>
-		</tr>
-		<tr>
-			<td>Week 3</td>
-		</tr>
-		<tr>
-			<td>Week 4</td>
-		</tr>
-	</table>
-</section>
--->
-
-<footer>
-	<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>
-		<img alt="Creative Commons License" src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png>
-	</a>
-	<br>This website is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Most of the resources on this site (e.g. the workbooks and the video lessons) are mine and are available to use, distribute, copy, and rework as long as you credit this site and don't sell any of the resources. The few exceptions are credited to the respective creators.
-</footer>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-73780895-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</body>
+			<div class="col-9 standard" id="2.10">
+				<h2>2.10 Experiment</h2>
+				<h3>Conduct an experiment to investigate a situation using statistical methods</h3>
+				<h3>AS91265, version 3 (2016), internal, 3 credits</h3>
+				<p><a href="http://www.nzqa.govt.nz/assets/qualifications-and-standards/qualifications/ncea/NCEA-subject-resources/Mathematics/91265/91265-EXP.pdf" target="_blank">Exemplars</a></p>
+				<p><a href="https://drive.google.com/file/d/0B5fpCjW4UJEmVGxrMy1IcnlUVkE/view?usp=sharing" target="_blank">Sample internal 1</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmeUdtVlYzNnduWmM/view?usp=sharing" target="_blank">Sample internal 2</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmMjN2MG5TVktSZk0/view?usp=sharing" target="_blank">Sample internal 3</a></p>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91265.pdf" target="_blank">Standard</a> (v3, 2017)<br>
+				<a href="http://www.nzqa.govt.nz/ncea/subjects/mathematics/clarifications/level-2/as91265/" target="_blank">Standard clarifications</a> (November 2017)<br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmS2FGVEhfLTJISFE/view?usp=sharing" target="_blank">Conditions of assessment</a> (2017)</p>
+				<p>This standard is linked to level 7 of the New Zealand Curriculum. It links to the achievement objective:
+					<ul>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-S7-1" target="_blank">S7-1 Carry out investigations of phenomena, using the statistical enquiry cycle:</a>
+							<ul>
+								<li>conducting experiments</li>
+								<li>evaluating the choice of measures for variables and data collection methods used</li>
+								<li>using relevant contextual knowledge, exploratory data analysis, and statistical inference</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-9 standard" id="2.12">
+				<h2>2.12 Probability</h2>
+				<h3>Apply probability methods in solving problems</h3>
+				<h3>AS91267, version 3 (2016), external, 4 credits</h3>
+				<p><a href="http://www.learncoach.co.nz/achievement-standards/num/91267" target="_blank">LearnCoach video tutorials</a></p>
+				<table>
+					<tr>
+						<td>2016</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2016/91267-exm-2016.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2016/91267-ass-2016.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2015</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91267-exm-2015.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2015/91267-ass-2015.pdf" target="_blank"> answers</a></td>
+					</tr>
+					<tr>
+						<td>2014</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2014/91267-exm-2014.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2014/91267-ass-2014.pdf" target=_blank>answers</a></td>
+					</tr>
+					<tr>
+						<td>2013</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2013/91267-exm-2013.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2013/91267-ass-2013.pdf" target="_blank">answers</a></td>
+					</tr>
+					<tr>
+						<td>2012</td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2012/91267-exm-2012.pdf" target="_blank">exam</a></td>
+						<td><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/schedules/2012/91267-ass-2012.pdf" target="_blank">answers</a></td>
+					</tr>
+				</table>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/exams/2015/91261-frm-2015.pdf" target="_blank">Formula sheet</a></p>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2016/as91267.pdf" target="_blank">Standard</a> (v3, 2016)<br>
+				<a href="http://www.nzqa.govt.nz/qualifications-standards/qualifications/ncea/subjects/assessment-specifications/mathematics-l2/" target="_blank">Assessment specifications</a> (2017)</p>
+				<p>This standard is linked to level 7 of the New Zealand Curriculum. It links to the achievement objectives:
+					<ul>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-S7-3" target="_blank">S7-3 Evaluate statistically based reports</a>
+							<ul>
+								<li>interpreting risk and relative risk</li>
+							</ul>
+						</li>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-S7-4" target="_blank">S7-4 Investigate situations that involve elements of chance</a>
+							<ul>
+								<li>comparing theoretical continuous distributions, such as the normal distribution, with experimental distributions</li>
+								<li>calculating probabilities, using such tools such as two-way tables, tree diagrams</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+			</div>
+			<div class="col-9 standard" id="2.14">
+				<h2>2.14 Systems of equations</h2>
+				<h3>Apply systems of equations in solving problems</h3>
+				<h3>AS91269, version 3 (2016), internal, 2 credits</h3>
+				<p><a href="http://www.nzqa.govt.nz/assets/qualifications-and-standards/qualifications/ncea/NCEA-subject-resources/Mathematics/91269/91269-EXP.pdf" target="_blank">Exemplars</a></p>
+				<p><a href="https://drive.google.com/file/d/0B5fpCjW4UJEmYmt1VHBkbmhNaDA/view?usp=sharing" target="_blank">Sample internal 1</a><br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmcUFxRHc4UTJ2Wjg/view?usp=sharing" target="_blank">Sample internal 2</a></p>
+				<p><a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91269.pdf" target="_blank">Standard</a> (v3, 2017)<br>
+				<a href="http://www.nzqa.govt.nz/ncea/subjects/mathematics/clarifications/level-2/as91269/" target="_blank">Standard clarifications</a> (December 2017)<br>
+				<a href="https://drive.google.com/file/d/0B5fpCjW4UJEmS2FGVEhfLTJISFE/view?usp=sharing" target="_blank">Conditions of assessment</a> (2017)</p>
+				<p>This standard is linked to level 7 of the New Zealand Curriculum. It links to the achievement objectives:
+					<ul>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M7-7" target="_blank">M7-7 Form and use linear and quadratic equations</a></li>
+						<li><a href="http://seniorsecondary.tki.org.nz/Mathematics-and-statistics/Achievement-objectives/AOs-by-level/AO-M7-8" target="_blank">M7-8 Form and use pairs of simultaneous equations, one of which may be non-linear</a></li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		<footer>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+			<br>
+			<p>This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. All resources are available to use, distribute, and rework but cannot be sold.</p>
+		</footer>
+	</body>
 </html>

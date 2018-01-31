@@ -1,9 +1,8 @@
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");
-  }
+function myFunction(id) {
+	var x = document.getElementsByClassName("standard");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	var y = document.getElementById(id);
+	y.style.display = "block";
 }

@@ -1,117 +1,41 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-	<meta charset=UTF-8>
-	<title>About</title>
-	<link rel=stylesheet href=../main.css>
-	<link rel="icon" href=../favicon.ico type="image/x-icon">
-</head>
-<body>
-
-<header class=tawari>
-	<h1>About</h1>
-</header>
-
-<nav class=tawari>
-	<ul>
-		<li><a href=../index.html>Home</a></li>
-		<li class=dropdown><a href=#>Level 1</a>
-			<div class=dropdown-content>
-				<a href=level1/1.1.html>1.1 Number</a>
-				<a href=level1/1.2.html>1.2 Algebra</a>
-				<a href=level1/1.3.html>1.3 Tables, equations, and graphs</a>
-				<a href=level1/1.7.html>1.7 Trigonometry</a>
-				<a href=level1/1.9.html>1.9 Transformation geometry</a>
-				<a href=level1/1.10.html>1.10 Multivariate data</a>
+<html>
+	<head>
+		<title>About</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="../icon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>About</h1>
+		</header>
+		<div class="row">
+			<div class="col-3 menu">
+				<a href="../index.html"><button>Home</button></a>
 			</div>
-		</li>
-		<li class=dropdown><a href=#>Level 2</a>
-			<div class=dropdown-content>
-				<a href=level2/2.6.html>2.6 Algebra</a>
-				<a href=level2/2.7.html>2.7 Calculus</a>
-				<a href=level2/2.8_2.9.html>2.8 Questionnaire and <br>
-				2.9 Inference</a>
+			<div class="col-9">
+				<h2>What is this website?</h2>
+				<p>I am a fourth-year maths teacher at W&#257; Ora Montessori School in Naenae, New Zealand. I developed these resources (and collated others' resources) with my students in mind but any students or teachers are welcome to use and distribute them according to either the creative commons license at the bottom of the page for my resources or the relevant license for others' resources. Resources that belong to others are always linked to the original source and the author's website if applicable. I can be contacted at <a href="mailto:david@waora.school.nz" target="_blank">david@waora.school.nz</a>, say hi.</p>
+				<h2>Why a creative commons license?</h2>
+				<p>I've appreciated all the help I've had as a beginning teacher in a small school especially when the help has been free or has saved me having to buy resources. And resources can be expensive! I am particularly grateful to several people who have made excellent resources available online for free. I name these people in the acknowledgements below.</p>
+				<p>In turn, I wanted to make my resources easily accessible by my students and their parents as well for other students and teachers around New Zealand so I made this website and chose to publish under a creative commons license rather than a copyright license. I wanted a license that would allow people to use either the whole or parts of my resources freely, hence derivatives are allowed. However, I didn't want the resources to be sold, even as part of a derivative work, so the license is also non-commercial, share-alike.</p>
+				<h2>Acknowledgements</h2>
+				<p>A few people have made fantastic resources available for free which I have used often. A large part of my job has been made much easier by these people. I am incredibly grateful. They are:
+				<ul>
+					<li>Jake Wills at <a href="http://www.mathsnz.com/" target="_blank">MathsNZ</a>. Jake has made fantastic resources for NCEA statistics and also pointed me on my first steps in learning HTML. You should look at his senior statistics resources for <a href="https://www.mathsnz.com/resources/" target="_blank">teachers</a> and <a href="https://students.mathsnz.com/" target="_blank">students</a>, and <a href="http://www.jake4maths.com/grapher/" target="_blank">NZGrapher</a>.</li>
+					<li>Brady Haran at <a href="https://www.youtube.com/user/numberphile" target="_blank">Numberphile</a>. Brady has produced a large number of videos that have been equally entertaining and illuminating. Go watch his videos. He has channels for other topics too including <a href="https://www.youtube.com/user/Computerphile" target="_blank">computers</a>, <a href="https://www.youtube.com/user/periodicvideos" target="_blank">chemistry</a>, and <a href="https://www.youtube.com/user/sixtysymbols" target="_blank">physics</a>. They are all worth checking out.</li>
+					<li>Matt Parker at <a href="https://www.youtube.com/channel/UCSju5G2aFaWMqn-_0YBtq5A" target="_blank">standupmaths</a>. Matt features in many of Brady's Numberphile videos, has written <a href="http://makeanddo4d.com/" target="_blank">my favourite maths book</a> and is "approximately one-third" of the <a href="http://festivalofthespokennerd.com/" target="_blank">Festival of the Spoken Nerd</a>. Everything he says is either mathematical, humourous, or both (probably shown in a Venn diagram).</li>
+					<li>Dan Meyer at <a href="http://blog.mrmeyer.com/" target="_blank">dy/dan</a>. I was first introduced to Dan through his <a href="https://www.ted.com/talks/dan_meyer_math_curriculum_makeover?language=en" target="_blank">TED talk</a> which I recommend to everyone. He has a lot of wisdom to share about mathematics teaching and learning. He has also produced excellent resources which I use with gratitude. He is also a part of the <a href="https://www.desmos.com/" target="_blank">Desmos</a> team.</li>
+					<li>Dave Cameron and the team at <a href="http://www.learncoach.co.nz/" target="_blank">LearnCoach</a>. They have put together an impressively large number of high-quality video tutorials specifically about NCEA standards in maths and the sciences. I am grateful for the work they've put in to creating these resources, they are excellent and I recommend them to anyone studying NCEA maths or science.</li>
+				</ul>
 			</div>
-		</li>
-		<li class=dropdown><a href=#>Level 3 statistics</a>
-			<div class=dropdown-content>
-				<a href=level3_statistics/3.4.html>3.4 Critical path analysis</a>
-				<a href=level3_statistics/3.9_3.10.html>3.9 Bivariate data and<br>
-				3.10 Formal inference</a>
-				<a href=level3_statistics/3.12.html>3.12 Statistical reports</a>
-				<a href=level3_statistics/3.13.html>3.13 Probability concepts</a>
-			</div>
-		</li>
-		<li class=dropdown><a href=#>Level 3 calculus</a>
-			<div class=dropdown-content>
-				<a href=level3_calculus/3.3.html>3.3 Trigonometry</a>
-				<a href=level3_calculus/3.6.html>3.6 Differentiation</a>
-				<a href=level3_calculus/3.7.html>3.7 Integration</a>
-				<a href=level3_calculus/3.15.html>3.15 Simultaneous equations</a>
-			</div>
-		</li>
-		<li class=dropdown><a href=#>Scholarship calculus</a>
-			<div class=dropdown-content>
-				<a href=scholarship_calculus/year_12.html>Year 12 scholarship</a>
-				<a href=scholarship_calculus/year_13.html>Year 13 scholarship</a>
-		</li>
-		<li class=right><a class=active href=about_tawari.html>About</a></li>
-	</ul>
-</nav>
-
-<section>
-	<h2>What is this website?</h2>
-	<p>
-		I am a fourth-year maths teacher at W&#257; Ora Montessori School in Naenae, New Zealand. I developed these resources (and collated others' resources) with my students in mind but any students or teachers are welcome to use and distribute them according to either the creative commons license at the bottom of the page for my resources or the relevant license for others' resources. Resources that belong to others are always linked to the original source and the author's website if applicable. I can be contacted at david@waora.school.nz, say hi.
-	</p>
-	<!--<h2>The eight rules</h2>
-	<p>
-		These are the eight rules. Abide by them.
-		<ol>
-			<li>Read the instructions</li>
-			<li>Back-of-the-envelope</li>
-			<li>DiagramS</li>
-			<li>Take a break</li>
-			<li>V-Window</li>
-			<li>PractiSe</li>
-			<li>Punctuality is key</li>
-			<li>Please and thank you</li>
-		</ol>
-	</p>-->
-	<h2>Why a creative commons license?</h2>
-	<p>
-		I've appreciated all the help I've had as a beginning teacher in a small school especially when the help has been free or has saved me having to buy resources. And resources can be expensive! I am particularly grateful to several people who have made excellent resources available online for free. I name these people in the acknowledgements below.
-	</p>
-	<p>
-		So in turn, I wanted to make my resources easily accessible by my students and their parents, as well as free for other students and teachers around New Zealand so I made this website and chose to publish under a creative commons license rather than a copyright license. I wanted a license that would allow people to use either the whole or parts of my resources freely, hence derivatives are allowed. However, I didn't want the resources to be sold, even as part of a derivative work, so the license is also non-commercial, share-alike.
-	</p>
-	<h2>Acknowledgements</h2>
-	</p>
-		A few people have made fantastic resources available for free which I have used often. A large part of my job has been to only bring those resources together into one place. I am indescribably grateful to those people. They are:
-		<ul>
-			<li>Jake Wills at <a href=http://www.mathsnz.com/ target=_blank>MathsNZ</a>. Jake has made fantastic resources for NCEA statistics and also pointed me on my first steps in learning html. You should look at his senior statistics resources and <a href=http://www.jake4maths.com/grapher/ target=_blank>NZGrapher</a>.</li>
-			<li>Brady Haran at <a href=https://www.youtube.com/user/numberphile target=_blank>Numberphile</a>. Brady has produced a large number of videos that have been equally entertaining and illuminating. Go watch his videos. He has channels for other topics too including <a href=https://www.youtube.com/user/Computerphile target=_blank>computers</a>, <a href=https://www.youtube.com/user/periodicvideos target=_blank>chemistry</a>, and <a href=https://www.youtube.com/user/sixtysymbols target=_blank>physics</a>. They are all worth checking out.</li>
-			<li>Matt Parker at <a href=https://www.youtube.com/channel/UCSju5G2aFaWMqn-_0YBtq5A target=_blank>standupmaths</a>. Matt features in many of Brady's Numberphile videos, has written <a href=http://makeanddo4d.com/ target=_blank>my favourite maths book</a> and is "approximately one-third" of the <a href=http://festivalofthespokennerd.com/ target=_blank>Festival of the Spoken Nerd</a>. Everything he says is either mathematical, humourous, or both (probably shown in a Venn diagram).</li>
-			<li>Dan Meyer at <a href=http://blog.mrmeyer.com/ target=_blank>dy/dan</a>. I was first introduced to Dan through his <a href=https://www.ted.com/talks/dan_meyer_math_curriculum_makeover?language=en target=_blank>TED talk</a> which I recommend to anyone. He has a lot of wisdom to share about mathematics teaching and learning. He has also produced excellent resources which I use with gratitude.</li>
-			<li>Dave Cameron and the team at <a href=http://www.learncoach.co.nz/ target=_blank>LearnCoach</a>. They have put together an impressively large number of high-quality video tutorials specifically about NCEA standards in maths and the sciences. I am grateful for the work they've put in to creating these resources, they are excellent and I recommend them to anyone studying NCEA maths or science.</li>
-		</ul>
-</section>
-
-<footer>
-	<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>
-		<img alt="Creative Commons License" src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png>
-	</a>
-	<br>This website is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/ target=_blank>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Most of the resources on this site (e.g. the workbooks and the video lessons) are mine and are available to use, distribute, copy, and rework as long as you credit this site and don't sell any of the resources. The few exceptions are credited to the respective creators.
-</footer>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-73780895-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</body>
+		</div>
+		<footer>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+			<br>
+			<p>This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. All resources are available to use, distribute, and rework but cannot be sold.</p>
+		</footer>
+	</body>
 </html>
