@@ -93,7 +93,8 @@ a:hover {
 	color:#888888;
 }
 li {
-	margin-bottom: 7px;
+	margin-bottom: 0;
+	padding: 7px 0;
 }
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
@@ -109,8 +110,4 @@ div.panel.show {
 =======
 ul {
 	list-style-type: none;
-}
-
-li {
-	padding: 10px 0 10px 0;
 }
