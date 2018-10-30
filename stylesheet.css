@@ -8,13 +8,18 @@
 }
 /* For mobile phones: */
 [class*="col-"] {
-    width: 100%;
+  width: 100%;
 	float: left;
-    padding: 15px;
+  padding: 15px;
 }
+
+/* Hides the "read more" content if the screen is too small until the button is pushed*/
+#more {display: none;}
+#readMoreButton {display: inline;}
+
 /* For desktop: */
 @media only screen and (min-width: 768px) {
- .col-1 {width: 8.33%;}
+.col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
@@ -26,9 +31,17 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+#more {display: inline;}
+#readMoreButton {display: none;}
 }
+
+
+
+
+
 html {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 	background-color: Gainsboro;
 	position:relative; /*Needed to push footer to the bottom of content*/
 	min-height:100%; /*Pushes footer to the bottom of empty page*/
@@ -53,7 +66,7 @@ header {
     margin: 0;
     padding: 0;
 }
-.menu li, button {
+.menu li, button:not(#readMoreButton) {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #33b5e5;
@@ -64,16 +77,27 @@ header {
 	color: #ffffff;
 	text-decoration: none;
 }
-button {
+button:not(#readMoreButton) {
 	font-family: 'Raleway', sans-serif;
 	font-size: 100%;
 	width: 100%;
 	text-align: left;
 	cursor: pointer;
 }
-.menu li:hover, button:hover {
+.menu li:hover, button:hover:not(#readMoreButton) {
     background-color: #0099cc;
 }
+
+#readMoreButton {
+  background-color: none;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+	text-align: left;
+	cursor: pointer;
+  text-decoration: underline;
+}
+
 footer {
 	position:absolute; /*Keeps the position locked*/
 	left:0; /*The absolute position is defined here and the next line*/
@@ -111,3 +135,5 @@ div.panel.show {
 ul {
 	list-style-type: none;
 }
+
+

@@ -6,3 +6,17 @@ function myFunction(id) {
 	var y = document.getElementById(id);
 	y.style.display = "block";
 }
+
+function readMore() {
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readMoreButton");
+
+  if (more.style.display === "inline") {
+    moreText.style.display = "none";
+    btnText.innerHTML = "...read more"; 
+  }
+  else {
+    moreText.style.display = "inline";
+    btnText.innerHTML = "...read less"; 
+  }
+}
